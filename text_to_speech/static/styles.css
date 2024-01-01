@@ -1,0 +1,45 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.container {
+    max-width: 600px !important;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    animation: colorChange 10s infinite; 
+}
+ button {
+    animation: colorChange 15s infinite;
+}
+
+@keyframes colorChange {
+    0% { color: #007bff; background-color: #007bff1a; }
+    25% { color: #28a745; background-color: #28a7451a; }
+    50% { color: #dc3545; background-color: #dc35451a; }
+    75% { color: #ffc107; background-color: #ffc1071a; }
+    100% { color: #007bff; background-color: #007bff1a; }
+}
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    font-weight: bold;
+    color: #495057;
+}
+
+textarea {
+    resize: none;
+}
+
+button {
+    margin-top: 20px;
+}

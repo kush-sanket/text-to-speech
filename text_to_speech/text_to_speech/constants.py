@@ -1,0 +1,5 @@
+MERCHANT_ID = "PGTESTPAYUAT"
+MERCHANT_TRANSACTION_ID = "your_unique_transaction_id"
+INDEX = "1"
+ENDPOINT = "/pg/v1/pay"
+SALTKEY = "099eb0cd-02cf-4e2a-8aca-3e6c6aff0399"
